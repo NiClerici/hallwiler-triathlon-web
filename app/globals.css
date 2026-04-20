@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Center Strava embeds */
+.strava-embed-placeholder,
+iframe[title*="strava"],
+.strava-embed {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
+
+.strava-embed-placeholder :is(iframe),
+.strava-embed :is(iframe) {
+  display: block !important;
+  margin: 0 auto !important;
+}

@@ -49,16 +49,22 @@ export default function Home() {
             <h2 className="text-4xl font-bold mb-12 text-center">Die Routen</h2>
             <div className="grid grid-cols-1 gap-8">
               <div className="bg-gray-50 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">🏊 Schwimmstrecke</h3>
-                <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="18002176328" data-style="standard" data-from-embed="false"></div>
+                <h3 className="text-2xl font-bold mb-4 flex items-center justify-center gap-2">🏊 Schwimmstrecke</h3>
+                <div className="flex justify-center">
+                  <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="18002176328" data-style="standard" data-from-embed="false"></div>
+                </div>
               </div>
               <div className="bg-gray-50 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">🚴 Radfahr­strecke</h3>
-                <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="18002176404" data-style="standard" data-from-embed="false"></div>
+                <h3 className="text-2xl font-bold mb-4 flex items-center justify-center gap-2">🚴 Radfahr­strecke</h3>
+                <div className="flex justify-center">
+                  <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="18002176404" data-style="standard" data-from-embed="false"></div>
+                </div>
               </div>
               <div className="bg-gray-50 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">🏃 Laufstrecke</h3>
-                <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="18002176468" data-style="standard" data-from-embed="false"></div>
+                <h3 className="text-2xl font-bold mb-4 flex items-center justify-center gap-2">🏃 Laufstrecke</h3>
+                <div className="flex justify-center">
+                  <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="18002176468" data-style="standard" data-from-embed="false"></div>
+                </div>
               </div>
             </div>
           </div>
