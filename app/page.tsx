@@ -43,6 +43,46 @@ export default function Home() {
           </div>
         </section>
 
+        {/* TREFFPUNKT SECTION */}
+        <section className="w-full py-16 px-4 bg-blue-50">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-12 text-center">Treffpunkt & Wichtige Infos</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">📍 Treffpunkt</h3>
+                <p className="text-lg text-gray-700 mb-2">
+                  <span className="font-semibold">Seebadi Beinwil am See</span>
+                </p>
+                <p className="text-base text-gray-600">
+                  Wir treffen uns bei der Seebadi in Beinwil am See.
+                </p>
+              </div>
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">🕐 Treffzeit</h3>
+                <p className="text-lg text-gray-700">
+                  <span className="font-semibold">12:00 Uhr</span>
+                </p>
+              </div>
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">🌊 Wassertemperatur</h3>
+                <p className="text-lg text-gray-700 mb-2">
+                  <span className="font-semibold">ca. 14°C</span>
+                </p>
+                <p className="text-base text-gray-600">
+                  Neoprenanzug empfohlen!
+                </p>
+              </div>
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold mb-4">💡 Tipp</h3>
+                <p className="text-base text-gray-600">
+                  Bringt einen Neoprenanzug mit – die Wassertemperatur ist frisch! <br />
+                  Nimmt euch genügend Nahrung und Getränke mit, damit ihr während des Events gut versorgt seid.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ROUTEN SECTION */}
         <section className="w-full py-16 px-4 bg-white">
           <div className="max-w-4xl mx-auto">
@@ -65,6 +105,42 @@ export default function Home() {
                 <div className="flex justify-center">
                   <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="18002176468" data-style="standard" data-from-embed="false"></div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* DOWNLOAD SECTION */}
+        <section className="w-full py-16 px-4 bg-white">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-12 text-center">GPX Dateien zum Download</h2>
+            <p className="text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">
+              Lade die Strecken-Dateien herunter und importiere sie in deine Trainings-App!
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-green-50 p-8 rounded-lg shadow-md text-center">
+                <div className="text-5xl mb-4">🚴</div>
+                <h3 className="text-2xl font-bold mb-4">Radfahr­strecke</h3>
+                <p className="text-gray-600 mb-6">45 km Hallwillersee</p>
+                <a
+                  href="/bike-route.gpx"
+                  download="hallwiler-triathlon-bike.gpx"
+                  className="inline-block bg-green-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                >
+                  ⬇️ GPX Download
+                </a>
+              </div>
+              <div className="bg-red-50 p-8 rounded-lg shadow-md text-center">
+                <div className="text-5xl mb-4">🏃</div>
+                <h3 className="text-2xl font-bold mb-4">Laufstrecke</h3>
+                <p className="text-gray-600 mb-6">8 km Hallwillersee</p>
+                <a
+                  href="/afternoon-run.gpx"
+                  download="hallwiler-triathlon-run.gpx"
+                  className="inline-block bg-red-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
+                >
+                  ⬇️ GPX Download
+                </a>
               </div>
             </div>
           </div>
