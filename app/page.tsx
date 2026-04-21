@@ -10,7 +10,7 @@ export default function Home() {
         {/* HERO SECTION */}
         <section className="w-full bg-gradient-to-b from-blue-600 to-blue-500 text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-4">Hallwiler Triathlon</h1>
+            <h1 className="text-5xl font-bold mb-8">Hallwiler Triathlon</h1>
             <p className="text-xl mb-2">Hallwillersee</p>
             <p className="text-2xl font-semibold">9. Mai 2026</p>
           </div>
@@ -66,6 +66,43 @@ export default function Home() {
                   <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="18002176468" data-style="standard" data-from-embed="false"></div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* HELPERS SECTION */}
+        <section className="w-full py-16 px-4 bg-white">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-12 text-center">Helfer gesucht!</h2>
+            <p className="text-lg text-gray-700 mb-8 text-center max-w-2xl mx-auto">
+              Wir brauchen euch! Der Event lebt von fleissigen Helfern bei Station, Verpflegung und Organisation.
+            </p>
+            <p className="text-lg text-gray-700 text-center max-w-2xl mx-auto">
+              Zur Belohnung gibt es natürlich auch Bier für unsere Helfer – und gute Laune sowieso! Meldet euch an und seid Teil des Teams.
+            </p>
+          </div>
+        </section>
+
+        {/* DISCLAIMER SECTION */}
+        <section className="w-full py-16 px-4 bg-gray-50">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-12 text-center">Haftungsausschluss / Disclaimer</h2>
+            <div className="bg-white p-8 rounded-lg shadow-md space-y-6 text-gray-700">
+              <p className="text-base leading-relaxed">
+                Die Teilnahme an diesem Triathlon erfolgt auf eigene Verantwortung. Es handelt sich um einen nicht offiziellen Hobby- bzw. Trainingswettkampf und nicht um eine behördlich genehmigte oder organisierte Veranstaltung.
+              </p>
+              <p className="text-base leading-relaxed">
+                Alle Teilnehmenden sind verpflichtet, insbesondere während der Radstrecke die geltenden Verkehrsregeln einzuhalten. Es findet keine Streckensperrung statt.
+              </p>
+              <p className="text-base leading-relaxed">
+                Der Schwimmteil findet in einem öffentlichen Gewässer statt, in dem sich auch Boote und andere Wasserteilnehmende befinden können. Es besteht keine Absicherung durch Rettungskräfte. Teilnehmende dürfen sich nur ins Wasser begeben, wenn sie sicher schwimmen können und sich den Bedingungen gewachsen fühlen.
+              </p>
+              <p className="text-base leading-relaxed">
+                Jede Person ist selbst dafür verantwortlich, ihre körperliche Gesundheit, Ausrüstung und Sicherheit angemessen einzuschätzen. Die Teilnahme erfolgt auf eigenes Risiko.
+              </p>
+              <p className="text-base leading-relaxed font-semibold">
+                Die Organisatoren sowie alle beteiligten Personen übernehmen keine Haftung für Unfälle, Verletzungen, Schäden oder Verluste jeglicher Art. Jegliche Haftungsansprüche werden, soweit gesetzlich zulässig, ausgeschlossen.
+              </p>
             </div>
           </div>
         </section>
